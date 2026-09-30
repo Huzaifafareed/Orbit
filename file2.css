@@ -8,3 +8,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+#mission-status {
+    font-weight: bold;
+    margin-top: 20px;
+}
