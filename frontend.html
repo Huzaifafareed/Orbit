@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mission Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Mission Builder</h1>
+
+    <div class="stats">
+        <p>Mass: <span id="mass">Loading...</span> kg</p>
+        <p>Power: <span id="power">Loading...</span>%</p>
+        <p>Science: <span id="science">Loading...</span></p>
+    </div>
+
+    <h2>Select Component</h2>
+
+    <button onclick="addComponent('camera')">
+        Add Camera
+    </button>
+
+    <button onclick="addComponent('radar')">
+        Add Radar
+    </button>
+
+    <button onclick="addComponent('spectrometer')">
+        Add Spectrometer
+    </button>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
